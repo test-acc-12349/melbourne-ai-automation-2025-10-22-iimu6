@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Melbourne AI Automation Blog - Insights, guides, and best practices for AI-powered automation solutions for small businesses.">
+    <meta name="keywords" content="AI Automation Blog, Melbourne, n8n, Business Automation, AI Solutions, Workflow Automation">
+    <meta name="author" content="Melbourne AI Automation">
+    <meta property="og:title" content="Melbourne AI Automation Blog - AI Solutions for Small Business">
+    <meta property="og:description" content="Discover insights, guides, and best practices for implementing AI automation in your small business.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mai.com/blog">
+    <title>Blog - Melbourne AI Automation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #1e40af 0%, #0f172a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hover-lift {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .star-rating {
+            color: #fbbf24;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .menu-toggle {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6" class="text-2xl font-bold gradient-text hover:opacity-80 transition-opacity duration-300">MAI</a>
+                </div>
+                
+                <a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium flex items-center gap-2">
+                    <i class="fas fa-arrow-left"></i>
+                    Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 md:py-28 lg:py-32 bg-gradient-to-br from-blue-50 via-white to-indigo-50 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-indigo-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center fade-in">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                    <span class="gradient-text">Our Blog</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed max-w-3xl mx-auto">
+                    Insights, Guides, and Best Practices for AI Automation
+                </p>
+                <p class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
+                    Discover expert insights, practical guides, and industry best practices for implementing AI-powered automation in your small business. Learn how to streamline operations, reduce costs, and scale efficiently with intelligent workflow automation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content Section -->
+    <section class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Featured Blog Post -->
+            <div class="mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Latest Article</h2>
+                
+                <div class="hover-lift bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+                    <div class="p-8 md:p-10">
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">Featured</span>
+                            <span class="text-gray-500 text-sm font-medium">October 22, 2025</span>
+                        </div>
+                        
+                        <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                            Getting Started with Our Platform
+                        </h3>
+                        
+                        <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                            AI automation has become essential for Melbourne small businesses seeking competitive advantage. This comprehensive guide explores how AI-powered systems eliminate repetitive tasks, reduce errors, and free teams for strategic work. Key applications include customer service, invoice processing, lead qualification, HR onboarding, and data synchronization. Success requires choosing the right platform with strong integrations and self-hosting options, implementing thoughtfully through pilot projects, and measuring ROI through time savings and error reduction. Implementation best practices involve documenting processes, involving teams, thorough testing, and continuous optimization. As technology advances, intelligent process automation will increasingly enable small businesses to scale efficiently without proportional team expansion, making automation a crucial investment for future growth.
+                        </p>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6/blog/getting-started-with-our-platform.html" class="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300 hover:shadow-lg hover:scale-105 font-bold">
+                                Read Full Article
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Posts Grid -->
+            <div class="mt-20">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">More Articles Coming Soon</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Placeholder for future posts -->
+                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 border-2 border-dashed border-gray-300 flex items-center justify-center min-h-80">
+                        <div class="text-center">
+                            <i class="fas fa-pencil-alt text-gray-400 text-4xl mb-4"></i>
+                            <p class="text-gray-600 font-medium">New articles coming soon</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 border-2 border-dashed border-gray-300 flex items-center justify-center min-h-80">
+                        <div class="text-center">
+                            <i class="fas fa-pencil-alt text-gray-400 text-4xl mb-4"></i>
+                            <p class="text-gray-600 font-medium">New articles coming soon</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 border-2 border-dashed border-gray-300 flex items-center justify-center min-h-80">
+                        <div class="text-center">
+                            <i class="fas fa-pencil-alt text-gray-400 text-4xl mb-4"></i>
+                            <p class="text-gray-600 font-medium">New articles coming soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Categories Section -->
+            <div class="mt-20 pt-20 border-t border-gray-200">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">What You'll Find Here</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-100">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-rocket text-white"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Getting Started Guides</h3>
+                        <p class="text-gray-600 text-sm">Step-by-step tutorials to help you implement automation in your business.</p>
+                    </div>
+                    
+                    <div class="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-100">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-lightbulb text-white"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Best Practices</h3>
+                        <p class="text-gray-600 text-sm">Industry insights and proven strategies for successful automation implementation.</p>
+                    </div>
+                    
+                    <div class="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-100">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-chart-line text-white"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Case Studies</h3>
+                        <p class="text-gray-600 text-sm">Real-world examples showing how businesses transformed with automation.</p>
+                    </div>
+                    
+                    <div class="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-100">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-cogs text-white"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Technical Tips</h3>
+                        <p class="text-gray-600 text-sm">Deep dives into n8n integrations, workflows, and advanced configurations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-20 md:py-28 overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop" alt="Team collaborating on automation" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-blue-600 opacity-75"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+                Ready to Transform Your Business?
+            </h2>
+            <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
+                Join hundreds of small businesses already saving time and money with Melbourne AI Automation. Start your free consultation today.
+            </p>
+            <a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6" class="inline-block px-10 py-4 bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-all duration-300 hover:shadow-lg hover:scale-105 font-bold text-lg">
+                Get Started Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1: About -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Melbourne AI Automation</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Empowering small businesses with affordable, scalable AI automation solutions.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Facebook" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Product -->
+                <div>
+                    <h4 class="text-white font-bold mb-6">Product</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Company -->
+                <div>
+                    <h4 class="text-white font-bold mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-6">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-blue-400 mt-1 mr-3"></i>
+                            <a href="mailto:admin@mai.com" class="text-gray-400 hover:text-white transition-colors duration-300">admin@mai.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 mr-3"></i>
+                            <span class="text-gray-400">Melbourne, Australia</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-globe text-blue-400 mt-1 mr-3"></i>
+                            <a href="https://mai.com" class="text-gray-400 hover:text-white transition-colors duration-300">https://mai.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                        &copy; 2025 Melbourne AI Automation. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Privacy Policy</a>
+                        <a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Terms of Service</a>
+                        <a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll behavior for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = target.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add scroll animation for fade-in elements
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.hover-lift').forEach(el => {
+            el.style.opacity = '0.8';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease-in-out';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
