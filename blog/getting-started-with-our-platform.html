@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Melbourne AI Automation - AI-powered automation solutions for small businesses. Fast implementation, scalable, and self-hosted.">
+    <meta name="keywords" content="AI Automation, Melbourne, n8n, Business Automation, AI Solutions">
+    <meta name="author" content="Melbourne AI Automation">
+    <meta property="og:title" content="Melbourne AI Automation - AI Solutions for Small Business">
+    <meta property="og:description" content="Transform your business with affordable, scalable AI automation solutions powered by n8n.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mai.com">
+    <title>Melbourne AI Automation - AI Solutions for Small Business</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #1e40af 0%, #0f172a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hover-lift {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .accordion-item {
+            transition: all 300ms ease-in-out;
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 300ms ease-in-out;
+        }
+        
+        .accordion-content.active {
+            max-height: 500px;
+        }
+        
+        .star-rating {
+            color: #fbbf24;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .menu-toggle {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+            
+            .nav-menu {
+                display: none;
+            }
+            
+            .nav-menu.active {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between">
+                <a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6" class="text-2xl font-bold gradient-text">MAI</a>
+                <a href="https://test-acc-12349.github.io/melbourne-ai-automation-2025-10-22-iimu6/blog.html" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Post Content -->
+    <article class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Blog Header -->
+            <div class="mb-12">
+                <div class="mb-6">
+                    <span class="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">Business Automation</span>
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                        The Complete Guide to AI Automation for Small Businesses in Melbourne
+                    </h1>
+                    <div class="flex items-center space-x-4 text-gray-600 mb-6">
+                        <span>Published on January 15, 2025</span>
+                        <span>•</span>
+                        <span>8 min read</span>
+                    </div>
+                </div>
+                
+                <!-- Featured Image -->
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=675&fit=crop" alt="Team collaborating on AI automation workflow implementation" class="w-full rounded-lg shadow-lg mb-8">
+            </div>
+
+            <!-- Blog Content -->
+            <div class="prose prose-lg max-w-none">
+                <p class="text-xl text-gray-700 leading-relaxed mb-8">
+                    In today's rapidly evolving business landscape, automation has become not just a luxury but a necessity for small businesses looking to compete effectively. AI-powered automation can transform the way your business operates, eliminating repetitive tasks, reducing errors, and freeing your team to focus on strategic work that drives growth. For small business owners in Melbourne and beyond, understanding how to implement AI automation effectively can be the difference between struggling to keep up and thriving in your industry.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">Understanding AI Automation and Its Impact</h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    AI automation refers to the use of artificial intelligence and intelligent workflow systems to automate repetitive business processes without human intervention. Unlike traditional automation that simply follows pre-programmed rules, AI automation can learn patterns, make decisions, and adapt to changing circumstances. This makes it incredibly powerful for businesses that deal with complex, variable processes.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    For small businesses, the impact of AI automation is profound. Consider a typical scenario: your accounting department spends hours each week manually entering invoices into your accounting system, matching them to purchase orders, and flagging discrepancies. An AI automation system can handle this entire process automatically, with near-perfect accuracy, while your team focuses on analyzing financial trends and identifying cost-saving opportunities. This is just one example of how automation can transform your operations.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">Why Melbourne Small Businesses Need Automation Now</h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Melbourne's business environment is increasingly competitive. Small businesses face pressure from larger corporations that have invested heavily in automation technology. However, the good news is that automation is now accessible and affordable for businesses of all sizes. Cloud-based platforms and self-hosted solutions have democratized access to enterprise-grade automation tools.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    The cost of labor in Australia continues to rise, making it economically challenging to hire additional staff for routine tasks. Automation offers a cost-effective alternative. Rather than hiring an additional team member to handle growing administrative work, you can implement automation that handles the work at a fraction of the cost. This allows you to maintain profitability while scaling operations.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Additionally, automation improves consistency and reduces human error. Manual data entry is prone to mistakes that can cascade through your systems, causing problems downstream. Automated processes execute the same way every time, ensuring data integrity and compliance with your business rules.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">Key Applications of AI Automation for Small Businesses</h2>
+                
+                <h3 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Customer Service and Support</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    AI automation can handle initial customer inquiries, route tickets to appropriate departments, and even provide instant responses to frequently asked questions. This reduces response times and improves customer satisfaction while freeing your support team to handle complex issues that require human judgment.
+                </p>
+
+                <h3 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Invoice and Payment Processing</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    One of the most time-consuming tasks in any business is processing invoices and payments. AI automation can extract data from invoices, validate amounts against purchase orders, route approvals to the right people, and even initiate payments automatically. This can reduce processing time from days to minutes.
+                </p>
+
+                <h3 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Lead Qualification and Sales</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    For sales teams, automation can qualify leads based on predefined criteria, score them based on engagement, and automatically send personalized follow-up messages. This ensures that your sales team focuses their efforts on the most promising opportunities.
+                </p>
+
+                <h3 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Human Resources and Onboarding</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Employee onboarding involves numerous repetitive tasks: sending welcome emails, collecting documents, setting up systems access, and scheduling training sessions. Automation can orchestrate the entire onboarding workflow, ensuring nothing falls through the cracks while saving HR teams significant time.
+                </p>
+
+                <h3 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Data Synchronization and Reporting</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Many businesses use multiple systems that don't communicate with each other. Automation can sync data between your CRM, accounting software, email platform, and other tools in real-time, ensuring everyone has access to current information. It can also generate reports automatically at scheduled intervals.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">Choosing the Right Automation Platform</h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    When selecting an automation platform for your small business, several factors should influence your decision. First, consider the platform's ease of use. You don't need to hire specialized developers to implement automation—the platform should be accessible to business users with a visual interface for building workflows.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Second, evaluate the integration capabilities. Your automation platform should connect easily with the tools you already use—your CRM, accounting software, email system, and other business applications. Platforms built on extensible architectures like n8n offer hundreds of pre-built integrations, which significantly accelerates implementation.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Third, consider your data security requirements. If you handle sensitive customer data or operate in a regulated industry, you may need a self-hosted solution where your data remains on your own infrastructure. This gives you complete control over security, compliance, and data residency.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Finally, assess the cost structure. Look for transparent pricing that scales with your usage. You should pay for what you use, not for unused capacity. Many enterprise platforms charge premium prices for small businesses; look for solutions specifically designed for SMBs that offer affordable pricing without sacrificing functionality.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">Implementation Best Practices</h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Successfully implementing AI automation requires a thoughtful approach. Start small with a pilot project that addresses a clear pain point in your business. Choose a process that is repetitive, rule-based, and causes measurable problems when done manually. This allows you to prove the value of automation before investing in larger, more complex implementations.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Document your current processes thoroughly before automating them. Understand every step, every decision point, and every exception. This documentation becomes the blueprint for your automation workflow. Many automation failures occur because the underlying process wasn't properly understood before automation was attempted.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Involve your team in the planning process. The people who currently perform these tasks understand the nuances and edge cases that might not be obvious to outsiders. Their insights are invaluable for creating robust automation that handles real-world complexity. Additionally, involving your team in the process increases adoption and reduces resistance to change.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Test thoroughly before going live. Run your automated workflow alongside your manual process for a period to ensure it produces the same results. Look for edge cases and exceptions that your initial design might have missed. This validation period prevents costly mistakes and builds confidence in the automation.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Monitor and optimize continuously. Even after a workflow is live, track its performance metrics. How many tasks is it handling? What's the error rate? Where are bottlenecks? Use this data to continuously improve your automation, making it more efficient and reliable over time.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">Measuring ROI and Success</h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    One of the most compelling aspects of automation is its quantifiable return on investment. To measure success, identify key metrics before implementation. For a process that currently requires manual data entry, measure how many hours per week your team spends on this task. Calculate the fully-loaded cost of this labor, including salary, benefits, and overhead.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    After implementing automation, measure the time savings. Most businesses see 80-95% time reduction in automated processes. If a task previously took 20 hours per week and now takes 1 hour per week for monitoring and exception handling, that's 19 hours per week of labor freed up. Over a year, that represents thousands of dollars in cost savings or productivity gains.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Beyond time savings, measure quality improvements. Track error rates before and after automation. Most businesses see error rates drop dramatically—often from 2-5% down to near zero. This reduces costly mistakes, improves customer satisfaction, and reduces the time spent fixing errors.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Consider intangible benefits as well. Automation improves employee satisfaction by eliminating tedious, repetitive work. This can reduce turnover and improve productivity in other areas. It also frees your team to work on more meaningful, strategic projects that directly impact business growth.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">Common Challenges and How to Overcome Them</h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Many businesses encounter challenges when implementing automation. One common issue is underestimating the complexity of existing processes. Processes that seem straightforward often have numerous exceptions and edge cases. To overcome this, invest time in thoroughly documenting and mapping your current processes before automation.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Another challenge is resistance from team members who fear automation will eliminate their jobs. Address this proactively by communicating that automation is designed to eliminate tedious work, not eliminate people. Reframe automation as a tool that allows your team to focus on higher-value work. Many businesses find that automation creates new opportunities for team members to develop new skills and take on more strategic roles.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Technical challenges can also arise, particularly around data quality. If your source data is incomplete or inconsistent, automation will propagate these problems. Before automating, invest in data cleanup and quality assurance. Establish data governance practices that ensure ongoing data quality.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Finally, many businesses struggle with integration complexity when their systems don't have APIs or when integrations are poorly documented. Choose platforms with extensive integration libraries and strong developer communities. Platforms like n8n have thousands of pre-built connectors that handle most common integration scenarios.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">The Future of AI Automation for Small Business</h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    The future of AI automation is incredibly promising for small businesses. As technology continues to advance, automation will become increasingly accessible and affordable. Machine learning capabilities will improve, allowing automation systems to handle more complex, variable processes. Natural language processing will make it easier to define workflows in plain English rather than complex technical specifications.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    We're also seeing the emergence of intelligent process automation that combines robotic process automation with AI and machine learning. This allows systems to handle processes that require judgment and decision-making, not just rule-based execution. For example, an intelligent system could analyze customer communications, determine sentiment and intent, and route to the appropriate department with context, all automatically.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    For Melbourne small businesses, this means the competitive advantage of automation will only grow. Businesses that embrace automation now will be better positioned to scale, improve profitability, and compete with larger enterprises. The time to start your automation journey is now.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6">Conclusion</h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-8">
+                    AI automation is no longer a luxury reserved for large enterprises with massive IT budgets. It's an accessible, affordable tool that can transform small businesses by eliminating repetitive work, improving accuracy, and freeing your team to focus on strategic growth. By understanding the applications of automation, choosing the right platform, and implementing thoughtfully, your small business can achieve significant competitive advantages.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed mb-8">
+                    The businesses that will thrive in the next decade will be those that embrace automation and AI as strategic tools for growth. If you're ready to start your automation journey, the time is now. Begin with a small pilot project, measure the results, and scale from there. The ROI from automation often exceeds expectations, making it one of the smartest investments a small business can make.
+                </p>
+
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-100 mt-12">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ready to Transform Your Business?</h3>
+                    <p class="text-gray-700 mb-6">
+                        Melbourne AI Automation specializes in helping small businesses implement AI-powered automation solutions. Our team of experts can help you identify opportunities for automation, implement workflows, and measure the impact on your business.
+                    </p>
+                    <a href="https://mai.com" class="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300 hover:shadow-lg font-bold">
+                        Start Your Free Consultation
+                    </a>
+                </div>
+            </div>
+
+            <!-- Author Info -->
+            <div class="mt-16 pt-8 border-t border-gray-200">
+                <div class="flex items-center space-x-4">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full flex items-center justify-center">
+                        <i class="fas fa-user text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-900">Melbourne AI Automation Team</h4>
+                        <p class="text-gray-600">Our team of automation experts and business strategists are dedicated to helping small businesses leverage AI and automation technology to drive growth and efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Related Articles Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">More Articles</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center">
+                        <i class="fas fa-cogs text-white text-6xl opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="inline-block px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-xs font-semibold mb-3">Automation</span>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">How to Automate Your Email Marketing Workflows</h3>
+                        <p class="text-gray-600 mb-4">Learn how to set up automated email sequences that nurture leads and drive conversions without manual intervention.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:text-blue-700 transition-colors">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-indigo-400 to-purple-600 flex items-center justify-center">
+                        <i class="fas fa-chart-line text-white text-6xl opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="inline-block px-3 py-1 bg-indigo-100 text-indigo-600 rounded-full text-xs font-semibold mb-3">Analytics</span>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Measuring the ROI of Business Automation</h3>
+                        <p class="text-gray-600 mb-4">Discover the key metrics to track and how to calculate the true financial impact of your automation initiatives.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:text-blue-700 transition-colors">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-purple-400 to-pink-600 flex items-center justify-center">
+                        <i class="fas fa-rocket text-white text-6xl opacity-50"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="inline-block px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-xs font-semibold mb-3">Growth</span>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Scaling Your Business with Intelligent Automation</h3>
+                        <p class="text-gray-600 mb-4">Explore strategies for using automation to scale your business operations without proportionally increasing your team size.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:text-blue-700 transition-colors">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1: About -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Melbourne AI Automation</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Empowering small businesses with affordable, scalable AI automation solutions.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Facebook" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Product -->
+                <div>
+                    <h4 class="text-white font-bold mb-6">Product</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Company -->
+                <div>
+                    <h4 class="text-white font-bold mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-6">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-blue-400 mt-1 mr-3"></i>
+                            <a href="mailto:admin@mai.com" class="text-gray-400 hover:text-white transition-colors duration-300">admin@mai.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 mr-3"></i>
+                            <span class="text-gray-400">Melbourne, Australia</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-globe text-blue-400 mt-1 mr-3"></i>
+                            <a href="https://mai.com" class="text-gray-400 hover:text-white transition-colors duration-300">https://mai.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                        &copy; 2025 Melbourne AI Automation. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Privacy Policy</a>
+                        <a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Terms of Service</a>
+                        <a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+            
+            // Close menu when link is clicked
+            const menuLinks = navMenu.querySelectorAll('a');
+            menuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('active');
+                });
+            });
+        }
+        
+        // FAQ Accordion functionality
+        const faqToggles = document.querySelectorAll('.faq-toggle');
+        
+        faqToggles.forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                const item = toggle.closest('.accordion-item');
+                const content = item.querySelector('.accordion-content');
+                const icon = toggle.querySelector('i');
+                const isActive = content.classList.contains('active');
+                
+                // Close all other accordions
+                document.querySelectorAll('.accordion-content').forEach(c => {
+                    c.classList.remove('active');
+                });
+                
+                document.querySelectorAll('.faq-toggle i').forEach(i => {
+                    i.style.transform = 'rotate(0deg)';
+                });
+                
+                // Toggle current accordion
+                if (!isActive) {
+                    content.classList.add('active');
+                    icon.style.transform = 'rotate(180deg)';
+                    toggle.setAttribute('aria-expanded', 'true');
+                } else {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+        
+        // Smooth scroll behavior for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = target.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add scroll animation for fade-in elements
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.hover-lift').forEach(el => {
+            el.style.opacity = '0.8';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease-in-out';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
